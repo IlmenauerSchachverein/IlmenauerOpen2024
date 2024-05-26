@@ -1,0 +1,13 @@
+# Für PHP (.php)
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+
+#Für HTML (.html)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [QSA,L]
+
+#Für HTM (.htm)
+RewriteCond %{REQUEST_FILENAME}.htm -f
+RewriteRule !.*\.htm$ %{REQUEST_FILENAME}.htm [QSA,L]
+
+ErrorDocument 404 http://open.ilmenauersv.xyz
