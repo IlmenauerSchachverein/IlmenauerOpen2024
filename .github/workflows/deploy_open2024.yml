@@ -31,15 +31,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:   
+        with:
           path: '.'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Clean
+        
+      - name: Clean local directory
         run: |
           git clean -fX
+          
+      - name: Clean server directory
+        env:
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+          SSH_SERVER: ${{ secrets.SSH_SERVER }}
+        run: |
+          sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_SERVER "rm -rf /var/www/ilmenauerschachverein/open24/*"
+          
+      - name: Upload to external server via SCP
+        env:
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+          SSH_SERVER: ${{ secrets.SSH_SERVER }}
+        run: |
+          sshpass -p $SSH_PASSWORD scp -o StrictHostKeyChecking=no -r * $SSH_USERNAME@$SSH_SERVER:/var/www/ilmenauerschachverein/open24
