@@ -138,3 +138,9 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Outdated Files
+generic.html
+elemts.html
+Datenschutz.html
+Impressum*.html
