@@ -54,6 +54,7 @@ jobs:
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
           SSH_SERVER: ${{ secrets.SSH_SERVER }}
         run: |
+          sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_SERVER "mkdir -p /var/www/ilmenauerschachverein/open24"
           sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_SERVER "rm -rf /var/www/ilmenauerschachverein/open24/*"
           
       - name: Upload to external server via SCP
