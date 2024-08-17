@@ -25,27 +25,16 @@ languages:
     weight: 1
     title: 1. Ilmenauer Open 2024
     contentDir: "content/de"
-
-  
-  en:
-    languageName: English
-    weight: 2
-    title: 1. Ilmenauer Open 2024
-    contentDir: "content/en"
-
 menu:
   main:
     - name: Anmeldung ↗
       url: "https://forms.gle/5Ca7vSiQXGX1XupU9"
       weight: 1
-    - name: Tabellen
-      pageRef: /table
-      weight: 1
     - name: Datenschutzerklärung
-      pageRef: /data
+      pageRef: datenschutz
       weight: 3
     - name: Impressum
-      pageRef: /imprint
+      pageRef: impressum
       weight: 3
     - name: Ilmenauer Schachverein ↗
       url: "https://ilmenauer-schachverein.de"
