@@ -81,28 +81,3 @@ jobs:
           SSH_SERVER: ${{ secrets.SSH_SERVER }}
         run: |
           sshpass -p $SSH_PASSWORD scp -o StrictHostKeyChecking=no -r public/* $SSH_USERNAME@$SSH_SERVER:/var/www/ilmenauerschachverein/open24
-
-      - name: Rebase GitHub Projekt
-        env:
-          BASE_URL: "https://ilmenauerschachverein.github.io/Schnellschachturnier2024/"
-        run: |
-          rm -rf public
-          sed -i "1ibaseURL: $BASE_URL\n" hugo.yaml
-          hugo
-
-      - name: Output
-        run: |
-          cat hugo.yaml
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          allow_empty_commit: false
-          keep_files: false
-          force_orphan: true
-          enable_jekyll: false
-          disable_nojekyll: false
-          exclude_assets: .github
