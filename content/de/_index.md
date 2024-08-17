@@ -5,6 +5,14 @@ type: docs
 weight: 1
 ---
 
+
+Herzlich willkommen zum ersten Ilmenauer Open 2024! Wir freuen uns, Sie beim diesjährigen Schachturnier
+begrüßen zu dürfen. Hier finden Sie alle relevanten Informationen, von den Spielzeiten bis zu den
+Teilnehmerdetails. Bitte zögern Sie nicht, sich bei Fragen oder Anliegen an unser Organisationsteam zu
+wenden. Wir wünschen Ihnen nicht nur spannende Partien, sondern auch eine angenehme Zeit voller
+Schachbegeisterung. Viel Spaß beim Ilmenauer Open 2024!
+
+
 ## Wichtige Informationen 
 {{< cards >}}
   {{< card link="invitation" title="Ausschreibung" icon="user" >}}
