@@ -1,7 +1,8 @@
 ---
-title: 1. Ilmenauer blitz 2024
+title: Blitz
 toc: false
 type: docs
+weight: 3
 ---
 
 ## Wichtige Informationen 
