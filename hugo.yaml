@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: 30. Ilmenauer Schnellschachturnier 2024
+title: 1. Ilmenauer Open 2024
 theme: "hextra"
 
 # import hextra as module
@@ -23,14 +23,14 @@ languages:
   de:
     languageName: German
     weight: 1
-    title: 30. Ilmenauer Schnellschachturnier 2024
+    title: 1. Ilmenauer Open 2024
     contentDir: "content/de"
 
   
   en:
     languageName: English
     weight: 2
-    title: 30th Ilmenau Rapid Chess Tournament 2024
+    title: 1. Ilmenauer Open 2024
     contentDir: "content/en"
 
 menu:
@@ -56,9 +56,9 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/IlmenauerSchachverein/Schnellschachturnier2024"
+      url: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024"
       params:
-        icon: gitlab
+        icon: github
     - name: Instagram
       weight: 7
       url: "https://instagram.com/ilmenauer_schachverein"
@@ -79,4 +79,4 @@ params:
 
   editURL:
     enable: false
-    base: "https://github.com/IlmenauerSchachverein/Schnellschachturnier2024"
+    base: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024"
