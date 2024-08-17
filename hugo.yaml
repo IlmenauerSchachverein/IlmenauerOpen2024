@@ -18,15 +18,20 @@ markup:
     noClasses: false
 
 defaultContentLanguage: de
+
 languages:
   de:
     languageName: German
     weight: 1
     title: 30. Ilmenauer Schnellschachturnier 2024
+    contentDir: "content/de"
+
+  
   en:
     languageName: English
     weight: 2
     title: 30th Ilmenau Rapid Chess Tournament 2024
+    contentDir: "content/en"
 
 menu:
   main:
