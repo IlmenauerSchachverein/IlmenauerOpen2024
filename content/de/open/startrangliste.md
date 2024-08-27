@@ -6,8 +6,6 @@ type: docs
 
 # 1. Ilmenauer Open 2024 - Ilmenauer SV
 
-## Teilnehmerliste (Sortiert nach Spielernummer)
-
 | TlnNr | Teilnehmer              | Titel | ELO  | NWZ  | Attr. | Verein/Ort                   | Land | Geburt | FideKenn. | PKZ       |
 |-------|-------------------------|-------|------|------|-------|------------------------------|------|--------|-----------|-----------|
 | 1     | Eichenauer, Pascal       |       | 2018 | 2103 | M     | Ilmenauer SV                 | GER  | 1999   | 12991848  | 10276112  |
