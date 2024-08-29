@@ -28,7 +28,7 @@ languages:
 menu:
   main:
     - name: Anmeldung
-      url: "anmeldung"
+      pageRef: "anmeldung"
       weight: 1
     - name: Datenschutzerklärung
       pageRef: datenschutz
