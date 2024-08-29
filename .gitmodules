@@ -1,0 +1,3 @@
+[submodule "Registrierung"]
+	path = Registrierung
+	url = https://github.com/IlmenauerSchachverein/Registrierung.git
