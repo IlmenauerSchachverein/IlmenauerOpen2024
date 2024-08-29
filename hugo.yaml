@@ -27,8 +27,8 @@ languages:
     contentDir: "content/de"
 menu:
   main:
-    - name: Anmeldung ↗
-      url: "https://forms.gle/5Ca7vSiQXGX1XupU9"
+    - name: Anmeldung
+      url: "anmeldung"
       weight: 1
     - name: Datenschutzerklärung
       pageRef: datenschutz
