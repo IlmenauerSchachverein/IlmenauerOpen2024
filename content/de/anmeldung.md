@@ -3,7 +3,6 @@ title: Anmeldung - Open
 type: docs
 toc: false
 ---
-# Anmeldung
 
 Wir freuen uns sehr, dass Sie sich anmelden wollen. Dazu haben Sie die folgenden Möglichkeiten:
 
