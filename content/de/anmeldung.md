@@ -3,10 +3,10 @@ title: Anmeldung - Open
 type: docs
 toc: false
 ---
-
+## Anmeldung - Open
 Wir freuen uns sehr, dass Sie sich anmelden wollen.
 
-{{% details title="Anmeldung via E-Mail" %}}
+{{% details title="Anmeldung via E-Mail" closed="true" %}}
 
 E-Mail: [info@ilmenauer-schachverein.de](mailto:info@ilmenauer-schachverein.de)
 
