@@ -6,7 +6,7 @@ toc: false
 
 ## test
 
-<form action="../register/open2024/submit.php">
+<form action="https://register.ilmenauersv.xyz/open2024/submit.php">
   <label>Vorname*</label><br>
   <input type="text" required name="vorname"><br>
 
