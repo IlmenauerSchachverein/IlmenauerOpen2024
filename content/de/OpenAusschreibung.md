@@ -6,7 +6,7 @@ toc: true
 
 {{< callout type="warning" >}}
 Der Link zu dieser Ausschreibung ist veraltet, die darin enthaltenen Daten sind jedoch weiterhin korrekt. Bitte verwenden Sie zukünftig den neuen Link zur Ausschreibung unter <a href="https://open24.ilmenauer-schachverein.de/ausschreibung/" target="_self">https://open24.ilmenauer-schachverein.de/ausschreibung/</a>. Vielen Dank.
-{{< /callout >} }
+{{< /callout >}}
 
 
 ## Datum
