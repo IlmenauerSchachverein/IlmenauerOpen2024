@@ -10,7 +10,7 @@ Wir freuen uns sehr, dass Sie sich anmelden wollen.
 
 {{< callout type="warning" >}}
 Die bisherige Anmeldung über das Google Drive-Formular ist weiterhin verfügbar. Auf Wunsch der Teilnehmer, die sich einen besseren Datenschutz gewünscht haben, haben wir zusätzlich eine lokale Lösung implementiert.
-{{< /callout >} }
+{{< /callout >}}
 
 
 {{< callout type="info" >}}
