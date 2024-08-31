@@ -4,3 +4,7 @@
 [submodule "TurnierWebsite"]
 	path = TurnierWebsite
 	url = https://github.com/eskopp/TurnierWebsite.git
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = https://github.com/imfing/hextra
+
