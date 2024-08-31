@@ -1,12 +1,12 @@
----
-title: OpenAusschreibung
+--- 
 type: docs
 toc: true
 menu: 
   main: 
-    identifier: "ausschreibung-open-alt"
+    identifier: "OpenAusschreibung"
     weight: -1
-    name: ""
+    name: "  "
+title: " "
 ---
 
 {{< callout type="warning" >}}
