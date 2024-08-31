@@ -2,10 +2,15 @@
 title: OpenAusschreibung
 type: docs
 toc: true
+menu: 
+  main: 
+    identifier: "ausschreibung-open-alt"
+    weight: -1
+    name: ""
 ---
 
 {{< callout type="warning" >}}
-Der Link zu dieser Ausschreibung ist veraltet, die darin enthaltenen Daten sind jedoch weiterhin korrekt. Bitte verwenden Sie zukünftig den neuen Link zur Ausschreibung unter <a href="https://open24.ilmenauer-schachverein.de/ausschreibung/" target="_self">https://open24.ilmenauer-schachverein.de/ausschreibung/</a>. Vielen Dank.
+Der Link zu dieser Ausschreibung ist veraltet, die darin enthaltenen Daten sind jedoch weiterhin korrekt. Bitte verwenden Sie zukünftig den neuen Link zur Ausschreibung unter <a href="https://open24.ilmenauer-schachverein.de/ausschreibung/" target="_self">https://open24.ilmenauer-schachverein.de/ausschreibung/</a>. <br> Vielen Dank.
 {{< /callout >}}
 
 
