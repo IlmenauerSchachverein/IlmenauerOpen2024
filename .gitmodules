@@ -1,3 +1,6 @@
 [submodule "Registrierung"]
 	path = Registrierung
 	url = https://github.com/IlmenauerSchachverein/Registrierung.git
+[submodule "TurnierWebsite"]
+	path = TurnierWebsite
+	url = https://github.com/eskopp/TurnierWebsite.git
