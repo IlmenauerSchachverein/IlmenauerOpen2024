@@ -1,0 +1,45 @@
+name: Sync all branches to GitLab
+
+on:
+  push:
+    branches:
+      - '**'  # Reagiert auf Push-Events auf allen Branches
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code from GitHub
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Holt die gesamte Git-Historie
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "eskopp"
+        git config --global user.email "skopp.erik@gmail.com"
+
+    - name: Add GitLab remote
+      run: git remote add gitlab https://gitlab-ci-token:${{ secrets.GITLAB }}@gitlab.erik-skopp.de/ilmenauersv/isv_ilmenaueropen2024.git
+
+    - name: Fetch branch from GitLab (if exists)
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git fetch gitlab $branch_name || echo "Branch does not exist in GitLab, will create it."
+
+    - name: Create branch in GitLab if not exists
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git push gitlab "refs/heads/$branch_name:refs/heads/$branch_name" || true
+
+    - name: Merge changes from GitLab (if branch exists)
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git merge "gitlab/$branch_name" --allow-unrelated-histories || echo "No remote branch to merge."
+
+    - name: Push to GitLab
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git push gitlab "refs/heads/$branch_name:refs/heads/$branch_name" --force-with-lease
+        git push --tags gitlab  # Pusht alle Tags zu GitLab
