@@ -1,6 +1,7 @@
 # Hugo configuration file
 title: 1. Ilmenauer Open 2024
-# theme: "hextra"
+relativeURLs: true
+canonifyURLs: true
 
 # import hextra as module
 module:
