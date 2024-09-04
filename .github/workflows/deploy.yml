@@ -33,7 +33,7 @@ jobs:
           extended: true
 
       - name: Build Hugo site
-        run: hugo  --cleanDestinationDir
+        run: hugo
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
