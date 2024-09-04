@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1. Ilmenauer Open 2024 – Spezialtabellen</title>
+    <link>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/</link>
+    <description>Recent content in Spezialtabellen on 1. Ilmenauer Open 2024</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	  <atom:link href="https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>DWZ Auswertung</title>
+      <link>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/dwz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/dwz/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ELO Auswertung</title>
+      <link>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/elo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/elo/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Fortschrittstabelle</title>
+      <link>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/fortschrittstabelle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ilmenauerschachverein.github.io/IlmenauerOpen2024/blitz/spezial/fortschrittstabelle/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
