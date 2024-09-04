@@ -51,6 +51,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22
-          source: "public"
+          source: "public/*"
           target: "/var/www/ilmenauerschachverein/open24"
           rm: true  
