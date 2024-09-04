@@ -42,6 +42,7 @@ jobs:
 
       - name: Build Hugo
         run: |
+          sed -i 's/^baseURL.*/baseURL = "https:\/\/open24.ilmenauer-schachverein.de\/"/' hugo.toml
           hugo --cleanDestinationDir
           find . -mindepth 1 -not -name 'public' -not -path './public/*' -exec rm -rf {} +
           mv public/* .
