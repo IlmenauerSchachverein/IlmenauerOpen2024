@@ -1,8 +1,6 @@
 # Hugo configuration file
-# relativeURLs: true
-# canonifyURLs: true
 title: 1. Ilmenauer Open 2024
-baseURL: "https://ilmenauerschachverein.github.io/IlmenauerOpen2024"
+baseURL: "https://open24.ilmenauer-schachverein.de/"
 
 # import hextra as module
 module:
