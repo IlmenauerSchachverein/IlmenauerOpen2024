@@ -1,0 +1,43 @@
+name: Sync all branches to GitLab
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code from GitHub
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Git 
+      run: |
+        git config --global user.name "Erik Skopp"
+        git config --global user.email "skopp.erik@gmail.com"
+
+    - name: Add GitLab remote
+      run: git remote add gitlab https://gitlab-ci-token:${{ secrets.GITLAB }}@gitlab.erik-skopp.de/ilmenauersv/isv_IlmenauerOpen2024.git
+
+    - name: Fetch from GitLab
+      run: git fetch gitlab
+
+    - name: Merge changes from GitLab
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git merge "gitlab/$branch_name" --allow-unrelated-histories || true
+
+    - name: Push to GitLab
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git push gitlab "refs/heads/$branch_name:refs/heads/$branch_name"
+        
+    - name: Push to GitLab
+      run: |
+        branch_name=$(echo "${GITHUB_REF#refs/heads/}")
+        git push gitlab "refs/heads/$branch_name:refs/heads/$branch_name"  # Pusht den aktuellen Branch zu GitLab und erstellt den Branch falls nötig
+        git push --tags gitlab  # Pusht alle Tags zu GitLab
