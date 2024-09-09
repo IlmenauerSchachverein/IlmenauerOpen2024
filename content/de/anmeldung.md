@@ -38,5 +38,5 @@ Für Rückfragen können Sie auch gerne eine Telefonnummer angeben.
 
 
 ## Anmeldung Formular
-<iframe src="https://register.ilmenauersv.xyz/open2024/" width="100%" height="2000px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" scrolling="no"></iframe>
+<iframe src="https://open24.ilmenauer-schachverein.de/Registrierung/open2024/" width="100%" height="2000px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" scrolling="no"></iframe>
 <br>
