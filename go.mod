@@ -1,5 +1,5 @@
-module github.com/imfing/hextra-starter-template
+module open24.ilmenauer-schachverein.de
 
-go 1.21
+go 1.23
 
 require github.com/imfing/hextra v0.8.2 // indirect

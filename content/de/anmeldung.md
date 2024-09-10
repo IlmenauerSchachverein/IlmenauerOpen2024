@@ -1,7 +1,7 @@
 ---
 title: Anmeldung - Open
 type: docs
-toc: true
+toc: false
 ---
 
 
