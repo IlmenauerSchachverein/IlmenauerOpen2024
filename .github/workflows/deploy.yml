@@ -41,7 +41,8 @@ jobs:
       - name: Fix Hugo 4 GitHub
         run: |
           sed -i '4i baseURL: "https://ilmenauerschachverein.github.io/IlmenauerOpen2024/"' hugo.yaml
-
+          cat hugo.yaml
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
