@@ -5,7 +5,7 @@ title: 1. Ilmenauer Open 2024
 
 
 # import hextra as module
-#module:
+# module:
 #  imports:
 # - path: github.com/imfing/hextra
 
@@ -72,4 +72,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024"
+    base: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024/edit/main/content"
