@@ -7,19 +7,19 @@
 {{ $link := false }}
 
 {{ range $page.AllTranslations }}
-  {{ if eq .Language.Lang $lang }}
-    {{ $link = .RelPermalink }}
-  {{ end }}
+{{ if eq .Language.Lang $lang }}
+{{ $link = .RelPermalink }}
+{{ end }}
 {{ end }}
 
 {{ if not $link }}
-  {{ range where $page.Sites ".Language.Lang" $lang }}
-    {{ $link = .Home.RelPermalink }}
-  {{ end }}
+{{ range where $page.Sites ".Language.Lang" $lang }}
+{{ $link = .Home.RelPermalink }}
+{{ end }}
 {{ end }}
 
 {{ if not $link }}
-  {{ $link = site.Home.RelPermalink }}
+{{ $link = site.Home.RelPermalink }}
 {{ end }}
 
 {{ return $link }}

@@ -2,25 +2,25 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{ if hugo.IsProduction -}}
-    <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow" />
   {{ else -}}
-    <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="noindex, nofollow" />
   {{ end -}}
   {{ partialCached "favicons.html" . }}
   <title>
     {{- if .IsHome -}}
-      {{ .Site.Title -}}
+    {{ .Site.Title -}}
     {{ else -}}
-      {{ with .Title }}{{ . }} – {{ end -}}
-      {{ .Site.Title -}}
+    {{ with .Title }}{{ . }} – {{ end -}}
+    {{ .Site.Title -}}
     {{ end -}}
   </title>
-  <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
+  <meta name="description" content="{{ partial " utils/page-description.html" . }}" />
 
   {{ with .Params.canonical }}
-    <link rel="canonical" href="{{ . }}" itemprop="url" />
+  <link rel="canonical" href="{{ . }}" itemprop="url" />
   {{ else }}
-    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+  <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
   {{ end }}
 
   {{ partial "opengraph.html" . }}
@@ -30,11 +30,11 @@
   {{ partialCached "head-css.html" . }}
 
 
-<!-- Google Analytics -->
-{{- if and (eq hugo.Environment "production") .Site.Config.Services.GoogleAnalytics.ID }}
+  <!-- Google Analytics -->
+  {{- if and (eq hugo.Environment "production") .Site.Config.Services.GoogleAnalytics.ID }}
   <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
   {{ partial "google-analytics.html" . }}
-{{- end }}
+  {{- end }}
 
   <script>
     /* Initialize light/dark mode */
