@@ -1,15 +1,10 @@
 title: 1. Ilmenauer Open 2024
 
-# Bitte Zeile 4 leer lassen
-
-
 
 # import hextra as module
-# module:
-#  imports:
-# - path: github.com/imfing/hextra
-
-theme: "hextra"
+module:
+ imports:
+  - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
