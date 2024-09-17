@@ -73,7 +73,7 @@ Das Schachturnier beeinflusst die DWZ (Deutsche Wertungszahl) und die ELO (FIDE)
 - Die Anmeldung inkl. Geldeingang muss bis zum 15.10.2024 erfolgt sein
 - Maximal 80 Teilnehmer (Reihenfolge der Anmeldungen, Nachrückliste)
 - Mit der Anmeldung wird einer Photoerlaubnis zugestimmt.
-- Formular für die Anmeldung: [Anmeldung](https://forms.gle/o5GZsLhLGJsfqRNC7)
+- Formular für die Anmeldung: [Anmeldung](https://ilmenauerschachverein.github.io/IlmenauerOpen2024/)
 
 ## Kontakt
 
