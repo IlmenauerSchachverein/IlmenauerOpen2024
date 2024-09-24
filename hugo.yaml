@@ -66,5 +66,5 @@ params:
     displayPoweredBy: true
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024/edit/main/content"
