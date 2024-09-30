@@ -45,4 +45,4 @@ type: docs
 | 37    | Heinz, Uwe               |       |      | 961  | M     | USV Erfurt Abteilung Schach  | GER  | 1973   | 533015910 | 10760057 |
 | 38    | Winger, Frank            |       |      | 834  | M     | Ilmenauer SV                 | GER  | 1964   | 16233069  | 10651767 |
 | 39    | Brandt, Jochen           |       |      |      | M     |                              | GER  | 1959   | 12944840  |          |
-| 40    | Wagner, Martin           |       |      |      | M     | SG Limbach-Oberfrohna        | GER  | 1994   |           | 10876631 |
+| 40    | Wagner, Martin           |       |      |      | M     | SG Limbach-Oberfrohna        | GER  | 1994   | 533015740 | 10876631 |
