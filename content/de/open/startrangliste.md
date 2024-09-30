@@ -42,7 +42,7 @@ type: docs
 | 34    | Adler, Marcel            |       |      | 1424 | M     | USV Erfurt Abteilung Schach  | GER  | 1979   | 533007276 | 10804293 |
 | 35    | Eisenbach, Markus        |       |      | 1412 | M     | Ilmenauer SV                 | GER  | 1984   | 34663630  | 10043553 |
 | 36    | Schwarzer, Jonas         |       |      | 1206 | M     | TSG Apolda                   | GER  | 2006   | 34686223  | 10829349 |
-| 37    | Heinz, Uwe               |       |      | 961  | M     | USV Erfurt Abteilung Schach  | GER  | 1973   |           | 10760057 |
+| 37    | Heinz, Uwe               |       |      | 961  | M     | USV Erfurt Abteilung Schach  | GER  | 1973   | 533015910 | 10760057 |
 | 38    | Winger, Frank            |       |      | 834  | M     | Ilmenauer SV                 | GER  | 1964   | 16233069  | 10651767 |
 | 39    | Brandt, Jochen           |       |      |      | M     |                              | GER  | 1959   | 12944840  |          |
 | 40    | Wagner, Martin           |       |      |      | M     | SG Limbach-Oberfrohna        | GER  | 1994   |           | 10876631 |
