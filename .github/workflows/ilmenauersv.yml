@@ -52,6 +52,6 @@ jobs:
         uses: appleboy/ssh-action@v1.1.0
         with:
             host: ${{ secrets.SSH_SERVER }}
-            username: ${{ secrets.SSH_USER }}
+            username: ${{ secrets.SSH_USERNAME }}
             password: ${{ secrets.SSH_PASSWORD }}
             script: cd /var/www/open24; mv public/* .;  rm -rf public
