@@ -20,5 +20,5 @@ jobs:
           git_email: "c2tvcHAuZXJpa0BnbWFpbC5jb20="
           gitlab_repo: "aHR0cHM6Ly9naXRsYWIuZXJpay1za29wcC5kZS9pbG1lbmF1ZXJzdi9pbG1lbmF1ZXJvcGVuMjAyNC5naXQ="
           gitlab_token: ${{ secrets.GITLAB }}
-          github_token: ""
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           base64: "true"
