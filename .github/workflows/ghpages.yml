@@ -53,10 +53,8 @@ jobs:
 
       - name: Build Hugo site
         run: |
-          cd website
           sed -i '2ibaseURL: "https://IlmenauerSchachverein.github.io/IlmenauerOpen2024/"' hugo.yaml
           hugo
-          cd website
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
