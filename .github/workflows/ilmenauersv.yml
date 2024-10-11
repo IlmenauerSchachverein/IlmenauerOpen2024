@@ -35,6 +35,7 @@ jobs:
 
       - name: Build Hugo site
         run: |
+          sed -i 's|baseURL: "https://erik-skopp.de/physik/"|baseURL: "https://ilmenauersv.xyz/open24"|' hugo.yaml
           hugo mod get
           hugo
 
@@ -47,11 +48,11 @@ jobs:
           target: "/var/www/open24"
           rm: true
           password: ${{ secrets.SSH_PASSWORD }}
-            
+
       - name: Create folder structure
         uses: appleboy/ssh-action@v1.1.0
         with:
-            host: ${{ secrets.SSH_SERVER }}
-            username: ${{ secrets.SSH_USERNAME }}
-            password: ${{ secrets.SSH_PASSWORD }}
-            script: cd /var/www/open24; mv public/* .;  rm -rf public
+          host: ${{ secrets.SSH_SERVER }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: cd /var/www/open24; mv public/* .;  rm -rf public
