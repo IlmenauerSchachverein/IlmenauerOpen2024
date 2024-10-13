@@ -42,6 +42,8 @@ Das Schachturnier beeinflusst die DWZ (Deutsche Wertungszahl) und die ELO (FIDE)
 | 03.11.2024 | 09:00        | 7. Runde      |
 | 03.11.2024 | anschließend | Siegerehrung  |
 
+Die Karenzzeit beträgt 30 min.
+
 ## Preise
 
 - Volle Preise ab 40 Teilnehmern
@@ -65,6 +67,8 @@ Das Schachturnier beeinflusst die DWZ (Deutsche Wertungszahl) und die ELO (FIDE)
 
 - 7 Runden Schweizer System
 - 2 Stunden + 30 Sekunden pro Zug
+- Es besteht schreibpflicht
+- Das Original ist abzugeben. Der Durchschlag kann behalten werden.
 
 ## Startgeld
 
