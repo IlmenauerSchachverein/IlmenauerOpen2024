@@ -42,7 +42,7 @@ Das Schachturnier beeinflusst die DWZ (Deutsche Wertungszahl) und die ELO (FIDE)
 | 03.11.2024 | 09:00        | 7. Runde      |
 | 03.11.2024 | anschließend | Siegerehrung  |
 
-Die Karenzzeit beträgt 30 min.
+- Die Karenzzeit beträgt 30 min.
 
 ## Preise
 
