@@ -54,6 +54,7 @@ menu:
         icon: instagram
 
 params:
+  disableToc: true
   navbar:
     displayTitle: true
     displayLogo: true
@@ -68,3 +69,6 @@ params:
   editURL:
     enable: false
     base: "https://github.com/IlmenauerSchachverein/IlmenauerOpen2024/edit/main/content"
+  
+  page:
+    width: full
