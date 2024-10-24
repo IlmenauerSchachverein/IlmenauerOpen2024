@@ -12,7 +12,7 @@ toc: false
 {{< /cards >}}
 
 ## Datum
-
+    
 - 01.11.2024 ab 21:00
 
 ## Spiellokal
